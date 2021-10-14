@@ -65,7 +65,11 @@ syntax on
 call plug#begin()
 Plug 'Klen/Python-mode'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'vim-airline/vim-airline'
+Plug 'vim-scripts/dbext.vim'
+Plug 'ervandew/supertab'
 call plug#end()
+
 
 imap <F5> <Esc>:w<CR>:!clear;python3 %<CR>
 
